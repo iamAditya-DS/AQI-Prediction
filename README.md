@@ -58,6 +58,9 @@ This dataset was used to:
 - Train the machine learning models (`classifier_pipeline.pkl`, `regressor_pipeline.pkl`)  
 - Provide default values for predictions when no custom dataset is uploaded  
 
+Due to GitHub’s file size limits, the dataset is **not included in this repository**.  
+If needed, you can use any AQI dataset with the following columns: 
+
 ### Columns in the dataset:  
 - `Country`  
 - `City`  
