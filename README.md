@@ -44,6 +44,9 @@ Models Include:
 - **classifier_pipeline.pkl → Predicts AQI Category**  
 - **regressor_pipeline.pkl → Predicts AQI Value**
 
+**NOTE**:The trained model files (`.pkl`) are not included due to size limits.  
+To generate them, please run `ML_Model.ipynb` locally, which will save `classifier_pipeline.pkl` and `regressor_pipeline.pkl` in your folder.
+
 **Training & Analysis Notebooks:**
 - **ML_Model.ipynb → Model training**
 - **visualization 1-4.ipynb → Pollution data insights**
@@ -58,7 +61,7 @@ This dataset was used to:
 - Train the machine learning models (`classifier_pipeline.pkl`, `regressor_pipeline.pkl`)  
 - Provide default values for predictions when no custom dataset is uploaded  
 
-Due to GitHub’s file size limits, the dataset is **not included in this repository**.  
+**NOTE**:Due to GitHub’s file size limits, the dataset is **not included in this repository**.  
 If needed, you can use any AQI dataset with the following columns: 
 
 ### Columns in the dataset:  
